@@ -34,7 +34,8 @@ header {
   gap: 150px;
 }
 .navbar-list {
-  gap: 30px;
+  gap: 40px;
+  padding-right: 20px;
 }
 
 .navbar-list a {
