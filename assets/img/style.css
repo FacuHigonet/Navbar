@@ -1,0 +1,43 @@
+header {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  height: 65px;
+  padding: 0px 25px 0px 25px;
+  position: fixed;
+  top: 0;
+  gap: 20px;
+  justify-content: space-between;
+}
+.logo {
+  height: 100px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(66, 60, 60);
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 48px;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.navbar {
+  gap: 150px;
+}
+.navbar-list {
+  gap: 30px;
+}
+
+.navbar-list a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.navbar-list li:first-child > a {
+  color: red;
+  font-weight: 500;
+}
