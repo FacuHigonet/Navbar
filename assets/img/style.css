@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 header {
   background-color: rgb(0, 0, 0);
   width: 100%;
@@ -25,6 +27,8 @@ header {
   display: flex;
   align-items: center;
   list-style-type: none;
+  font-family: "Indie Flower";
+  font-weight: 500;
 }
 .navbar {
   gap: 150px;
@@ -39,5 +43,5 @@ header {
 }
 .navbar-list li:first-child > a {
   color: red;
-  font-weight: 500;
+  font-weight: 600;
 }
